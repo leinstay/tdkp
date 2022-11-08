@@ -3,6 +3,7 @@
 document.addEventListener("DOMContentLoaded", function () {
 	var scrollbar = window.Scrollbar;
 	document.getElementById("history") && scrollbar.init(document.getElementById("history"), {});
+	document.getElementById("loothistory") && scrollbar.init(document.getElementById("loothistory"), {});
 	document.getElementById("modhistory") && scrollbar.init(document.getElementById("modhistory"), {});
 	$.fn.dataTable.moment('DD.MM HH:mm');
 
