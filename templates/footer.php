@@ -7,7 +7,7 @@
 <script src="js/smooth-scrollbar.js"></script>
 <script src="js/datetime-moment.js"></script>
 <script src="js/natural.js"></script>
-<script src="js/main.js?v=22"></script>
+<script src="js/main.js?v=25"></script>
 
 </body>
 
