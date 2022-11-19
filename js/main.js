@@ -125,17 +125,6 @@ document.addEventListener("DOMContentLoaded", function () {
 		});
 	}
 
-	setInterval(function () {
-		table_els.forEach(function (item) {
-			switch (item.id) {
-				case "all-events":
-				case "boss-events":
-					tables[item.id].ajax.reload();
-					break;
-			}
-		});
-	}, 15000);
-
 	/* Фикс заголовка таблиц */
 	window.addEventListener('resize', function (event) {
 		setTimeout(function () {
