@@ -1,0 +1,5 @@
+.git
+.vscode
+config.json
+bot.log
+/node_modules/
